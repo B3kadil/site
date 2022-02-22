@@ -68,3 +68,11 @@ darkMode.addEventListener("click", function() {
         console.log('dark off')
     }
 })
+let btn = document.querySelector('.rectangle-2');
+btn.addEventListener('click', function() {
+    document.querySelector('.popup-bg').style.display = 'block';
+})
+let exit = document.querySelector('.popup-exit');
+exit.addEventListener('click', function() {
+    document.querySelector('.popup-bg').style.display = 'none';
+})
